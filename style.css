@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,900;1,300&display=swap');
+
+/* CSS Reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+.header {
+    width: 100vw;
+    height: 80px;
+    background-color: #1A242E;
+}
+
+.navigation {
+    width: 90vw;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.left {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    width: 140px;
+    margin-right: 20px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.left ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.left ul li {
+    padding: 0px 10px;
+}
+
+.right {
+    display: flex;
+}
+
+.right button {
+    background-color: #1399DE;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 2px;
+    font-family: Montserrat;
+    color: white;
+    font-size: 14px;
+}
+
+.right button:hover {
+    background-color: #75c5ed;
+}
+
+.hero {
+    width: 100vw;
+    height: 700px;
+    background-image: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    width: 45vw;
+    color: #ffffff;
+    margin: 10rem 3rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 20px 0px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+#sm-para {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.hero-content button {
+    padding: 15px 40px;
+    background-color: #00A0D6;
+    border: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+#headeing {
+    margin-top: 50px;
+}
+
+.channels {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.channel-left {
+    margin: 0px 40px;
+}
+
+.channel-left h1 {
+    font-size: 2.5rem;
+    margin: 20px 0px;
+}
+
+.channel-left p {
+    line-height: 25px;
+    margin: 20px 0px;
+}
+
+.channel-right img {
+    width: 250px;
+}
+
+.remote {
+    width: 100vw;
+    height: 500px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.remote-content {
+    height: 500px;
+    color: #ffffff;
+    width: 40%;
+    position: absolute;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.remote-content h2 {
+    font-size: 35px;
+    margin: 20px 0px;
+}
+
+.remote-content p {
+    line-height: 25px;
+}
+
+.remote-content button {
+    padding: 10px 25px;
+    margin: 20px 0px;
+    background-color: #00A0D6;
+    border: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.cartoon {
+    width: 100vw;
+    height: 500px;
+    background-image: url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg");
+    background-size: cover;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+}
+
+.cartoon-content {
+    width: 40%;
+    color: #ffffff;
+    margin: 10rem 4rem;
+}
+
+.cartoon-content h2 {
+    font-size: 35px;
+    margin: 20px 0px;
+}
+
+.cartoon-content p {
+    line-height: 25px;
+}
+
+.cartoon-content button {
+    padding: 10px 25px;
+    margin: 20px 0px;
+    background-color: #00A0D6;
+    border: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.footer {
+    width: 100vw;
+    height: 150px;
+    background-color: #222222;
+}
+
+.footer-content {
+    width: 30vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.footer-content ul {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    color: #00A0D6;
+}
+
+.footer-content ul li {
+    padding: 0px 15px;
+}
+
+.footer-content p {
+    color: grey;
+    margin-top: 10px;
+}
+
+.footer-content a {
+    color: white;
+}
